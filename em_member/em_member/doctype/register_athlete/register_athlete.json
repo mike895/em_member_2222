@@ -1,0 +1,354 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EAF-ATH-.######",
+ "creation": "2022-04-18 15:04:07.350584",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "mother_name",
+  "medical_result",
+  "column_break_4",
+  "middle_name",
+  "height",
+  "place_of_birth",
+  "column_break_8",
+  "last_name",
+  "weight",
+  "section_break_11",
+  "passport_id_number",
+  "passport_issue_date",
+  "passport_expire_date",
+  "passport_copy",
+  "section_break_16",
+  "blood_type",
+  "date_of_birth",
+  "phone_number",
+  "column_break_20",
+  "age_category",
+  "gender",
+  "email",
+  "column_break_24",
+  "athlete_status",
+  "picture",
+  "additional_contact_section",
+  "full_name",
+  "column_break_29",
+  "phone_1",
+  "column_break_31",
+  "email_1",
+  "section_break_33",
+  "honors",
+  "section_break_35",
+  "disciplineevent",
+  "personal_best",
+  "athlete_representative",
+  "column_break_39",
+  "place_of_employmentclub",
+  "seasonal_best",
+  "column_break_42",
+  "world_ranking",
+  "coach"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mother Name ",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "medical_result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medical Result",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passport_id_number",
+   "fieldtype": "Data",
+   "label": "Passport ID number"
+  },
+  {
+   "fieldname": "passport_issue_date",
+   "fieldtype": "Date",
+   "label": "Passport Issue Date"
+  },
+  {
+   "fieldname": "passport_expire_date",
+   "fieldtype": "Date",
+   "label": "Passport Expire Date"
+  },
+  {
+   "fieldname": "passport_copy",
+   "fieldtype": "Attach",
+   "label": "Passport Copy"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "blood_type",
+   "fieldtype": "Select",
+   "label": "Blood Type",
+   "options": "\nA+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_category",
+   "fieldtype": "Data",
+   "label": "Age Category"
+  },
+  {
+   "fieldname": "athlete_status",
+   "fieldtype": "Data",
+   "label": "Athlete Status",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Attach Image",
+   "label": "Picture",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "additional_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Contact"
+  },
+  {
+   "fieldname": "disciplineevent",
+   "fieldtype": "Data",
+   "label": "Discipline(Event)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_employmentclub",
+   "fieldtype": "Link",
+   "label": "Place of Employment(Club)",
+   "options": "Register Clubs"
+  },
+  {
+   "fieldname": "world_ranking",
+   "fieldtype": "Data",
+   "label": "World Ranking"
+  },
+  {
+   "fieldname": "honors",
+   "fieldtype": "Table",
+   "label": "Honors",
+   "options": "Honor table"
+  },
+  {
+   "fieldname": "personal_best",
+   "fieldtype": "Time",
+   "label": "Personal Best"
+  },
+  {
+   "fieldname": "seasonal_best",
+   "fieldtype": "Time",
+   "label": "Seasonal Best"
+  },
+  {
+   "fieldname": "coach",
+   "fieldtype": "Link",
+   "label": "Coach",
+   "options": "Register Coaches"
+  },
+  {
+   "fieldname": "athlete_representative",
+   "fieldtype": "Data",
+   "label": "Athlete Representative"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "options": "Name"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_1",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_1",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 10:48:01.886035",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Register athlete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Encoder",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Viewer",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

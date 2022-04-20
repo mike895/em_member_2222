@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-19 12:21:03.791534",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_competition",
+  "column_break_2",
+  "organizer",
+  "venue_of_address",
+  "region",
+  "city",
+  "column_break_7",
+  "sub_city",
+  "venue_of_event",
+  "section_break_10",
+  "date_and_time",
+  "list_of_participating_athletes",
+  "column_break_13",
+  "list_of_eventdiscipline"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_competition",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of competition",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "organizer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organizer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue_of_address",
+   "fieldtype": "Section Break",
+   "label": "Venue of Address"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date and Time ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "list_of_participating_athletes",
+   "fieldtype": "Data",
+   "label": "List of Participating Athletes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "list_of_eventdiscipline",
+   "fieldtype": "Data",
+   "label": "List of Event/Discipline",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region",
+   "options": "\nAddis Ababa\nAfar\nAmhara\nBenishangul-Gumuz\nDire Dawa\nGambella\nHarari\nOromia\nSidama\nSNNP\nSomali\nTigray",
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_city",
+   "fieldtype": "Data",
+   "label": "Sub city",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue_of_event",
+   "fieldtype": "Data",
+   "label": "Venue of event",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 12:30:16.300983",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Create competition",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

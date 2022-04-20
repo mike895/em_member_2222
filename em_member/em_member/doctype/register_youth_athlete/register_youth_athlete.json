@@ -1,0 +1,273 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-19 11:47:53.881246",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "mother_name",
+  "age",
+  "place_of_birth",
+  "column_break_5",
+  "middle_name",
+  "year_of_entrance",
+  "age_category",
+  "educational_level",
+  "column_break_10",
+  "last_name",
+  "sex",
+  "date_of_birth",
+  "picture",
+  "anthropometric_measurement_section",
+  "medical_test_section",
+  "blood_type",
+  "column_break_16",
+  "muscular_type",
+  "column_break_18",
+  "heart_rate",
+  "biometric_test_section",
+  "endurance",
+  "strength",
+  "column_break_23",
+  "agility",
+  "speed",
+  "column_break_26",
+  "mobility",
+  "psychology",
+  "section_break_20",
+  "coach",
+  "head_coach",
+  "column_break_34",
+  "assistant_coach",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mother name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "year_of_entrance",
+   "fieldtype": "Int",
+   "label": "Year of Entrance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_category",
+   "fieldtype": "Select",
+   "label": "Age Category",
+   "options": "4-7\n8-11\n11-14",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Attach Image",
+   "label": "Picture"
+  },
+  {
+   "fieldname": "educational_level",
+   "fieldtype": "Data",
+   "label": "Educational Level"
+  },
+  {
+   "fieldname": "anthropometric_measurement_section",
+   "fieldtype": "Section Break",
+   "label": "Anthropometric Measurement"
+  },
+  {
+   "fieldname": "medical_test_section",
+   "fieldtype": "Section Break",
+   "label": "Medical Test"
+  },
+  {
+   "fieldname": "coach",
+   "fieldtype": "Data",
+   "label": "Coach"
+  },
+  {
+   "fieldname": "head_coach",
+   "fieldtype": "Data",
+   "label": "Head Coach"
+  },
+  {
+   "fieldname": "assistant_coach",
+   "fieldtype": "Data",
+   "label": "Assistant Coach"
+  },
+  {
+   "fieldname": "biometric_test_section",
+   "fieldtype": "Section Break",
+   "label": "Biometric Test"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nPass\nretain\nnext year\ndismissed"
+  },
+  {
+   "fieldname": "blood_type",
+   "fieldtype": "Select",
+   "label": "Blood Type",
+   "options": "\nA+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "muscular_type",
+   "fieldtype": "Data",
+   "label": "Muscular Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heart_rate",
+   "fieldtype": "Int",
+   "label": "Heart Rate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "endurance",
+   "fieldtype": "Data",
+   "label": "Endurance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "strength",
+   "fieldtype": "Data",
+   "label": "Strength",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "agility",
+   "fieldtype": "Data",
+   "label": "Agility",
+   "reqd": 1
+  },
+  {
+   "fieldname": "speed",
+   "fieldtype": "Data",
+   "label": "Speed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobility",
+   "fieldtype": "Data",
+   "label": "Mobility",
+   "reqd": 1
+  },
+  {
+   "fieldname": "psychology",
+   "fieldtype": "Data",
+   "label": "Psychology",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 12:06:29.251719",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Register youth athlete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

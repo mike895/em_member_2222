@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name_of_club",
+ "creation": "2022-04-19 09:32:21.736785",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_club",
+  "number_of_coaches",
+  "column_break_3",
+  "date_of_establishment",
+  "age_category",
+  "column_break_6",
+  "number_of_athlete_in_the_club",
+  "phone_number",
+  "head_office_location_section",
+  "region",
+  "woreda",
+  "column_break_9",
+  "city",
+  "kebele",
+  "column_break_12",
+  "sub_city",
+  "house_no",
+  "section_break_15",
+  "other_location_section",
+  "section_break_20",
+  "website",
+  "column_break_22",
+  "athlete"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_club",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Club",
+   "options": "Name",
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date_of_establishment",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Establishment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_athlete_in_the_club",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of Athlete in the Club",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_coaches",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of Coaches",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_category",
+   "fieldtype": "Select",
+   "label": "Age Category",
+   "options": "\nU20\nU18\nU16"
+  },
+  {
+   "fieldname": "head_office_location_section",
+   "fieldtype": "Section Break",
+   "label": "Head office location"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "other_location_section",
+   "fieldtype": "Table",
+   "label": "Other location",
+   "options": "Club location"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "athlete",
+   "fieldtype": "Link",
+   "label": "Athlete",
+   "options": "Register athlete"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region ",
+   "options": "\nAddis Ababa\nAfar\nAmhara\nBenishangul-Gumuz\nDire Dawa\nGambella\nHarari\nOromia\nSidama\nSNNP\nSomali\nTigray"
+  },
+  {
+   "fieldname": "woreda",
+   "fieldtype": "Int",
+   "label": "Woreda"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "kebele",
+   "fieldtype": "Int",
+   "label": "Kebele"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_city",
+   "fieldtype": "Data",
+   "label": "Sub city"
+  },
+  {
+   "fieldname": "house_no",
+   "fieldtype": "Int",
+   "label": "House No"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 10:49:13.315887",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Register Clubs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

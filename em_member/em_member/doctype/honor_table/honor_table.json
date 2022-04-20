@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-18 15:55:38.071073",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "event",
+  "discipline",
+  "rank",
+  "mark",
+  "place_of_event"
+ ],
+ "fields": [
+  {
+   "fieldname": "event",
+   "fieldtype": "Data",
+   "label": "Event"
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Data",
+   "label": " Discipline"
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Int",
+   "label": "Rank"
+  },
+  {
+   "fieldname": "mark",
+   "fieldtype": "Data",
+   "label": "Mark  "
+  },
+  {
+   "fieldname": "place_of_event",
+   "fieldtype": "Data",
+   "label": "Place of event"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-18 15:55:38.071073",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Honor table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

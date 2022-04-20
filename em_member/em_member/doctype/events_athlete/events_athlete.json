@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-19 10:15:21.550899",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "hfhj"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "hfhj",
+   "fieldtype": "Link",
+   "label": "hfhj",
+   "options": "Event"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-19 10:23:17.409866",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Events athlete",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

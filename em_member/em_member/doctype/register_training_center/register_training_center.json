@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-19 12:14:05.484016",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "establishment_date",
+  "current_capacity",
+  "location",
+  "number_of_coaches",
+  "eventsdiscipline"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "establishment_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Establishment Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "current_capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Current Capacity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "number_of_coaches",
+   "fieldtype": "Int",
+   "label": "Number of Coaches"
+  },
+  {
+   "fieldname": "eventsdiscipline",
+   "fieldtype": "Data",
+   "label": "Events/Discipline",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 12:14:05.484016",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Register training center",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

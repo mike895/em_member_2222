@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-19 13:08:27.008239",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "region",
+  "city",
+  "sub_city",
+  "woreda",
+  "kebele",
+  "house_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Region",
+   "options": "\nAddis Ababa\nAfar\nAmhara\nBenishangul-Gumuz\nDire Dawa\nGambella\nHarari\nOromia\nSidama\nSNNP\nSomali\nTigray"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City"
+  },
+  {
+   "fieldname": "sub_city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sub city"
+  },
+  {
+   "fieldname": "woreda",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Woreda"
+  },
+  {
+   "fieldname": "kebele",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Kebele"
+  },
+  {
+   "fieldname": "house_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "House No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-19 13:08:57.635879",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "project location table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,209 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EAF-COA-.#####",
+ "creation": "2022-04-18 16:51:13.246000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "date_of_birth",
+  "phone_number",
+  "column_break_4",
+  "middle_name",
+  "gender",
+  "email",
+  "column_break_8",
+  "last_name",
+  "picture",
+  "additional_contact",
+  "full_name",
+  "column_break_13",
+  "phone_1",
+  "column_break_15",
+  "email_1",
+  "section_break_17",
+  "disciplineevents",
+  "athletes",
+  "column_break_20",
+  "educational_backgroundscertifications",
+  "current_coaching",
+  "column_break_23",
+  "place_of_employment_club",
+  "occupational_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Birth ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Attach Image",
+   "label": "Picture ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "additional_contact",
+   "fieldtype": "Section Break",
+   "label": "Additional Contact"
+  },
+  {
+   "fieldname": "disciplineevents",
+   "fieldtype": "Data",
+   "label": "Discipline(Events)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "educational_backgroundscertifications",
+   "fieldtype": "Select",
+   "label": "Educational Backgrounds(Certifications)",
+   "options": "\nLocal level i\nLocal level ii\nInternational I\nInternational ii\nInternational iii",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_employment_club",
+   "fieldtype": "Data",
+   "label": "Place of Employment (Club)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "athletes",
+   "fieldtype": "Link",
+   "label": "Athletes",
+   "options": "Register athlete"
+  },
+  {
+   "fieldname": "current_coaching",
+   "fieldtype": "Select",
+   "label": "Current Coaching",
+   "options": "\nShort distance\nMiddle distance\nLong distance\nField Event",
+   "reqd": 1
+  },
+  {
+   "fieldname": "occupational_level",
+   "fieldtype": "Select",
+   "label": "Occupational Level",
+   "options": "\nHead coach\nAssistant coach",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "options": "Name"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_1",
+   "fieldtype": "Data",
+   "label": "Phone number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_1",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-19 10:50:16.149999",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "Register Coaches",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
